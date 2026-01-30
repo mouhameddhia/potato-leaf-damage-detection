@@ -4,7 +4,7 @@ import axios from 'axios';
 // For local testing on Android emulator: use http://10.0.2.2:8000
 // For local testing on iOS simulator: use http://localhost:8000
 // For local testing on physical device: use your computer's local IP (e.g., http://192.168.1.100:8000)
-const API_URL = 'http://10.0.2.2:8000'; // Default for Android emulator
+const API_URL = 'http://192.168.1.28:8000'; // Using your network IP for physical device
 
 /**
  * Predict disease from image
